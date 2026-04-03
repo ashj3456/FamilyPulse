@@ -1,12 +1,12 @@
 import { router } from "expo-router";
 import {
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
-import { Colors } from "../constants/colors";
+import { COLORS } from "../constants/colors";
 
 export default function Dashboard() {
   return (
@@ -39,7 +39,7 @@ export default function Dashboard() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.background,
+    backgroundColor: COLORS.background,
     padding: 20,
   },
 
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
 
   button: {
     marginTop: 20,
-    backgroundColor: Colors.primary,
+    backgroundColor: COLORS.primary,
     padding: 16,
     borderRadius: 12,
     alignItems: "center",

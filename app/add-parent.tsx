@@ -1,11 +1,11 @@
 import {
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
-import { Colors } from "../constants/colors";
+import { COLORS } from "../constants/colors";
 
 export default function AddParent() {
   return (
@@ -26,7 +26,7 @@ export default function AddParent() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.background,
+    backgroundColor: COLORS.background,
     padding: 25,
   },
 
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: Colors.primary,
+    backgroundColor: COLORS.primary,
     padding: 16,
     borderRadius: 12,
     alignItems: "center",
